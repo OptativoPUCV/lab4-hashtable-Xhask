@@ -141,3 +141,14 @@ hashmap.c:111:46: error: returning ‘char *’ from a function with incompatibl
 cc1: all warnings being treated as errors
 Compilation failed
 d0b8410
+Fri 10 May 2024 03:11:45 AM UTC: 
+ hashmap.c | 1 -
+ 1 file changed, 1 deletion(-)
+In file included from test.c:4:
+hashmap.c: In function ‘firstMap’:
+hashmap.c:111:46: error: returning ‘char *’ from a function with incompatible return type ‘Pair *’ [-Werror=incompatible-pointer-types]
+  111 |             return map->buckets[map->current]->key;
+      |                    ~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+1090e09
