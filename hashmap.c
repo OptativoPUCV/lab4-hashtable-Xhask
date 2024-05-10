@@ -108,7 +108,7 @@ Pair * firstMap(HashMap * map) {
     
     while(map->current < map->capacity){
         if (map->buckets[map->current] != NULL && map->buckets[map->current]->key != NULL){
-            return map->buckets[map->current];
+            return map->buckets[map->current]->key;
         }
         map->current++;
     }
