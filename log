@@ -114,3 +114,13 @@ Fri 10 May 2024 03:06:16 AM UTC:
  tests:  12|2
 total_score: 50/70
 50268c2
+Fri 10 May 2024 03:07:39 AM UTC: 
+ hashmap.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:4:
+hashmap.c: In function ‘firstMap’:
+hashmap.c:111:36: error: ‘HashMap’ {aka ‘struct HashMap’} has no member named ‘value’
+  111 |             return map->buckets[map->value];
+      |                                    ^~
+Compilation failed
+fd7e1b4
