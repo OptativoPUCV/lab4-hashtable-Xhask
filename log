@@ -92,3 +92,13 @@ Fri 10 May 2024 03:03:02 AM UTC:
  tests:  13|2
 total_score: 50/70
 a9034cc
+Fri 10 May 2024 03:04:47 AM UTC: 
+ hashmap.c | 19 ++++++++++---------
+ 1 file changed, 10 insertions(+), 9 deletions(-)
+/nix/store/039g378vc3pc3dvi9dzdlrd0i4q93qwf-binutils-2.39/bin/ld: /tmp/ccP9rDZS.o: in function `next_test':
+test.c:(.text+0x1263): undefined reference to `nextMap'
+/nix/store/039g378vc3pc3dvi9dzdlrd0i4q93qwf-binutils-2.39/bin/ld: test.c:(.text+0x12c8): undefined reference to `nextMap'
+/nix/store/039g378vc3pc3dvi9dzdlrd0i4q93qwf-binutils-2.39/bin/ld: test.c:(.text+0x130c): undefined reference to `nextMap'
+collect2: error: ld returned 1 exit status
+Compilation failed
+e04d2dc
