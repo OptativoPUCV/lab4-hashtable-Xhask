@@ -76,11 +76,6 @@ void enlarge(HashMap * map) {
     free(aux);
 }   
     
-
-
-}
-
-
 HashMap * createMap(long capacity) {
     HashMap * map = (HashMap *)malloc(sizeof(HashMap));
     if (map == NULL) return NULL;
