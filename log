@@ -1,0 +1,6 @@
+Fri 10 May 2024 02:45:12 AM UTC: 
+ hashmap.c | 25 +++++++++++++++++++++----
+ 1 file changed, 21 insertions(+), 4 deletions(-)
+ tests:  5|4
+total_score: 30/70
+3589b07
