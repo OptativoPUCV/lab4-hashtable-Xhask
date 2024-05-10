@@ -120,3 +120,8 @@ Pair *firstMap(HashMap *map)
   map->current = -1;
   return NULL;
 }
+
+Pair * nextMap(HashMap * map) {
+
+    return NULL;
+}
